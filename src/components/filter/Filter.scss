@@ -1,0 +1,61 @@
+@import "../../assets//main-color/color";
+
+.filter{
+    margin-top: 50px;
+}
+.filter__section{
+    &--date{
+        border: none;
+        outline: none;
+        background-color: $main-color2;
+        color:$main-color3;
+        border: 1px solid $main-color3;
+        padding: 6px 16px;
+        border-radius: 4px;
+        margin-right: 20px;
+    }
+    &--select{
+        width: 300px;
+        border: none;
+        outline: none;
+        background-color: $main-color2;
+        color:$main-color3;
+        border: 1px solid $main-color3;
+        padding: 7px 7px;
+        border-radius: 4px;
+        height: 38px;
+        margin-right: 20px;
+    }
+    &--btn{
+        border: none;
+        outline: none;
+        background-color: $main-color3;
+        color:$main-color2;
+        padding: 7px 27px;
+        border-radius: 4px;
+        border:1px solid $main-color3;
+        margin-right: 20px;
+        transition: ease-out 0.5s;
+        &:hover{
+            background-color:$main-color2;
+            color:$main-color3;
+            
+        }
+    }
+    &--export{
+        border: none;
+        outline: none;
+        background-color: $main-color3;
+        color:$main-color2;
+        padding: 7px 16px;
+        border-radius: 4px;
+        border:1px solid $main-color3;
+        transition: ease-out 0.5s;
+        height: 38px;
+        &:hover{
+            background-color:$main-color2;
+            color:$main-color3;
+            
+        }
+    }
+}
